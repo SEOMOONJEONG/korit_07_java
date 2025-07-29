@@ -65,6 +65,7 @@ public class Operator01 {
         System.out.println(j);      // 위의 코드가 +1 됐기 때문에 11 출력
         System.out.println(++j);    // ++면수명 : 코드를 실행시키기 전에 j에 1을 더함 / 그래서 12 출력
         System.out.println(j);      // 위에 더한 상태로 출력된거라 위와 동일하게 12 출력됨
+        System.out.println("----------------------------------");
         System.out.println(j--);    // 그럼 얘의 출력값은 뭔가요? 12
         System.out.println(j);      // 11
         System.out.println(--j);    // 10
@@ -73,7 +74,8 @@ public class Operator01 {
         // --변수명 : 코드를 실행시키기 전에 j에 1을 감함.
 
         int age = 10;
-        System.out.println("제 나이는 " + age + "살입니다.");
-        System.out.println("내년에는 " + age + 1 + "살이 됩니다.");
+        System.out.println("제 나이는 " + age + "살 입니다.");
+        System.out.println("내년에는 " + (age + 1) + "살이 됩니다.");
+        // Operator02 생성
     }
 }
