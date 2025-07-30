@@ -54,7 +54,6 @@ public class Condition03 {
         } else if (point > 20) {
             userGrade = "BRONZE";
         }
-
         System.out.println("회원 등급 : " + userGrade);
 
         // 2. 요구 등급에 대한 포인트 규정이 바뀔 경우에 일일이 수정해야 한다.
@@ -68,7 +67,6 @@ public class Condition03 {
         } else if (point > BRONZE_POINT) {
             userGrade2= "BRONZE";
         }
-
-        System.out.println("회원 등급 : " + userGrade);
+        System.out.println("회원 등급 : " + userGrade2);
     }
 }
