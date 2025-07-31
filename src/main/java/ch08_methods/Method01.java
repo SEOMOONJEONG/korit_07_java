@@ -17,19 +17,19 @@ public class Method01 {
         System.out.println("영어 인사 : " + example);
     }
 
-    // 3. [ x | o ]
+//     3. [ x | o ]
     public static String call3() {
         String example = "안녕하세요";
         System.out.println("[ x | o ]");
         return example;
     }
 
-//    public static int call3And1() {
-//        System.out.println("[ x | o ]");
-//        return 1;
-//    }
+    public static int call3And1() {
+        System.out.println("[ x | o ]");
+        return 1;
+    }
 
-    // 4. [ o | o ]
+//     4. [ o | o ]
     public static double call4(double score) {
         System.out.println("[ o | o ]");
         System.out.println("해당 과목은 3학점짜리입니다.");
@@ -79,4 +79,5 @@ public class Method01 {
 //                                                        // 최종 결과물을 콘솔에 출력합니다.
 //
 //    }
+
 }
