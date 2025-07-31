@@ -35,20 +35,20 @@ public class Method01 {
         System.out.println("해당 과목은 3학점짜리입니다.");
         return score * 3;
     }
-//    public static void main(String[] args) {
-//        // 메서드 호출 영역
-//        call1();
-//        call2("hello");
+    public static void main(String[] args) {
+        // 메서드 호출 영역
+        call1();
+        call2("hello");
 //        call3();
-////        call3And1();
-//
-//
-//        // return값을 출력하기 위해서는
-//        System.out.println(call3() + "!");
-////        System.out.println(call3And1()+1);
-//        String name = "김일";
-//        System.out.println(name + " 학생의 학점은 " + call4(4.5) + "점입니다.");
-//    }
+//        call3And1();
+
+
+        // return값을 출력하기 위해서는
+        System.out.println(call3() + "!");
+//        System.out.println(call3And1()+1);
+        String name = "김일";
+        System.out.println(name + " 학생의 학점은 " + call4(4.5) + "점입니다.");
+    }
     /*
         return이 있는 이유는 기본적으로 데이터의 조작을 위해서입니다.
         그리고 특정 메서드의 결과값이 다른 메서드의 argument로 사용될 수도 있습니다.
@@ -61,22 +61,22 @@ public class Method01 {
 
             간단 예시
      */
-    public static String introduce(String name, int age) {
-        return "제 이름은 " + name + "이고, 나이는 " + age + "살 입니다.\n내년에는 " + (age + 1) + "살입니다.";
-    }
-
-    public static void main(String[] args) {
-        int myAge = 0;
-        Scanner scanner = new Scanner(System.in);
-        String myName = "";
-        System.out.print("이름을 입력하세요. >> ");
-        myName = scanner.nextLine();                // 사실 이 nextLine(); 이 메서드입니다. → 메서드의 결과값을 myName이라는
-                                                    // 변수에 저장했습니다.
-        System.out.print("나이를 입력하세요. >> ");
-        myAge = scanner.nextInt();
-        System.out.println(introduce(myName,myAge));    // 그리고 그 myName / myAge라는 결과값을
-                                                        // 우리가 정의한 introduce()메서드의 argument로 사용하여
-                                                        // 최종 결과물을 콘솔에 출력합니다.
-
-    }
+//    public static String introduce(String name, int age) {
+//        return "제 이름은 " + name + "이고, 나이는 " + age + "살 입니다.\n내년에는 " + (age + 1) + "살입니다.";
+//    }
+//
+//    public static void main(String[] args) {
+//        int myAge = 0;
+//        Scanner scanner = new Scanner(System.in);
+//        String myName = "";
+//        System.out.print("이름을 입력하세요. >> ");
+//        myName = scanner.nextLine();                // 사실 이 nextLine(); 이 메서드입니다. → 메서드의 결과값을 myName이라는
+//                                                    // 변수에 저장했습니다.
+//        System.out.print("나이를 입력하세요. >> ");
+//        myAge = scanner.nextInt();
+//        System.out.println(introduce(myName,myAge));    // 그리고 그 myName / myAge라는 결과값을
+//                                                        // 우리가 정의한 introduce()메서드의 argument로 사용하여
+//                                                        // 최종 결과물을 콘솔에 출력합니다.
+//
+//    }
 }
