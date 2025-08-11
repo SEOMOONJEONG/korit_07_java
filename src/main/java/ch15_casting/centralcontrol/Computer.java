@@ -10,6 +10,12 @@ public class Computer implements Power {
     public void off() {
         System.out.println("컴퓨터의 전원을 끕니다.");
     }
+    // downcasting에 앞서 고유 메서드들 하나씩 정의하겠습니다.
+    public void compute() {
+        System.out.println("컴퓨터가 연산을 수행합니다.");
+    }
+
+
 }
 
 /*
@@ -35,5 +41,5 @@ public class Computer implements Power {
     AirConditioner 클래스 생성해서 Power implement 하고
     에어컨의 전원을 켭니다.
     에어컨의 전원을 끕니다. 로 재정의하시오.
-    Wpeaker도 동일하게 하시오.
+    Speaker도 동일하게 하시오.
  */
