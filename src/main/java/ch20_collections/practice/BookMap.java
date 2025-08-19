@@ -98,18 +98,18 @@ public class BookMap {
 //                    + "재고 수량 : " + bookSet.getValue() + "권");
 //                }
 
-//                List<Map.Entry<String, Integer>> bookList = new ArrayList<>(bookInventory.entrySet());
-//                for (int i = 0; i < bookList.size(); i++) {
-//                    Map.Entry<String, Integer> bookSet = bookList.get(i);
-//                    System.out.println("도서명 : " + bookSet.getKey() + ", 재고 수량 : " + bookSet.getValue() + "권");
-//                }
-
-                Set<String> keySet = bookInventory.keySet();
-                List<String> keyList = new ArrayList<>();
-                keyList.addAll(keySet); // key들만 저장된 List 생성
-                for(String key : keyList) {
-                    System.out.println("도서명 : " + key + ", 재고 수량 : " + bookInventory.get(key)+ "권");
+                List<Map.Entry<String, Integer>> bookList = new ArrayList<>(bookInventory.entrySet());
+                for (int i = 0; i < bookList.size(); i++) {
+                    Map.Entry<String, Integer> bookSet = bookList.get(i);
+                    System.out.println("도서명 : " + bookSet.getKey() + ", 재고 수량 : " + bookSet.getValue() + "권");
                 }
+
+//                Set<String> keySet = bookInventory.keySet();
+//                List<String> keyList = new ArrayList<>();
+//                keyList.addAll(keySet); // key들만 저장된 List 생성
+//                for(String key : keyList) {
+//                    System.out.println("도서명 : " + key + ", 재고 수량 : " + bookInventory.get(key)+ "권");
+//                }
             }else if(option == 4) {
                 System.out.println("프로그램을 종료합니다.");
                 break;
