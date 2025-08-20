@@ -1,4 +1,4 @@
-package test;
+package ch00_test1;
 
 class Factory {
     private static Factory instance;

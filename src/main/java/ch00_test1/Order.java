@@ -1,4 +1,4 @@
-package test;
+package ch00_test1;
 
 public class Order {
     private int orderId;

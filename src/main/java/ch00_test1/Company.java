@@ -1,4 +1,4 @@
-package test;
+package ch00_test1;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
