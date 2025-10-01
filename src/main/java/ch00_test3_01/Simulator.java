@@ -1,4 +1,4 @@
-package ch00_test3;
+package ch00_test3_01;
 
 import java.util.Scanner;
 

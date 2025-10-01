@@ -1,4 +1,4 @@
-package ch00_test3_01;
+package ch00_test03_2;
 
 class Calculator {
     // TODO: 두 개의 int를 더하는 add 메서드를 작성하시오.

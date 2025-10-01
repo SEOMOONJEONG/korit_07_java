@@ -1,4 +1,4 @@
-package ch00_test3_01;
+package ch00_test03_2;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -14,8 +14,8 @@ public class MeetingAttendees {
         attendees.add("김철수");
 
         // TODO: "박지성"이 명단에 있는지 확인하고, "박지성 참석 여부: [true/false]" 형식으로 출력하시오.
-        boolean containattendees = attendees.contains("박지성");
-        System.out.println("박지성 참석 여부: "+ containattendees);
+        boolean containAttendees = attendees.contains("박지성");
+        System.out.println("박지성 참석 여부: "+ containAttendees);
 
         // TODO: 최종 참석자 수를 "최종 참석자 수: [숫자]" 형식으로 출력하시오.
         int countattendees = attendees.size();

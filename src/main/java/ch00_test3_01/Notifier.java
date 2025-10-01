@@ -1,4 +1,4 @@
-package ch00_test3;
+package ch00_test3_01;
 
 // TODO: send(String message) 추상 메서드를 가진 Notification 인터페이스를 작성하시오.
 interface Notification {

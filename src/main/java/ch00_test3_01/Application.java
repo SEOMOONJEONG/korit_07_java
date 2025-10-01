@@ -1,4 +1,4 @@
-package ch00_test3;
+package ch00_test3_01;
 
 class SettingsManager {
     // TODO: private static 필드로 instance를 선언하시오.

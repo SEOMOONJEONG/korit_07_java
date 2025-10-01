@@ -1,4 +1,4 @@
-package ch00_test3;
+package ch00_test3_01;
 
 import java.util.*;
 
@@ -7,14 +7,18 @@ public class GradeCalculator {
     public static double calculateAverage(Map<String, Integer> scores) {
         double sum = 0;
         // TODO: scores 맵의 모든 점수를 합산하여 합계를 구하는 코드를 작성하시오.
-        for (int value : scores.values()) {
-            sum += value;
+        for (int score : scores.values()) {
+            sum += score;
         }
         // TODO: 합산된 점수를 과목 수로 나누어 평균을 계산하고 반환하는 코드를 작성하시오.
-        double average = (double) sum / scores.size();
-
         // 단, 과목이 없을 경우 0점을 반환해야 합니다.
-        return 0.0;
+        double average = (double) sum / scores.size();
+        if (scores.isEmpty()) {
+            return 0.0;
+        }else {
+            return average;
+        }
+
     }
 
     public static void main(String[] args) {
@@ -52,10 +56,9 @@ public class GradeCalculator {
         }
 
     }
-
 }
 
 /*
     학생: 홍길동, 평균 점수: 90.0
     학생: 김철수, 평균 점수: 81.0
- */
+*/

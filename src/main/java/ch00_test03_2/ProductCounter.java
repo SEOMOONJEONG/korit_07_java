@@ -1,4 +1,4 @@
-package ch00_test3;
+package ch00_test03_2;
 
 class Product {
     private String name;

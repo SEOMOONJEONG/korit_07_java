@@ -1,4 +1,4 @@
-package ch00_test3;
+package ch00_test3_01;
 
 // TODO: Exception을 상속받는 OutOfStockException 클래스를 작성하시오.
 class OutOfStockException extends Exception{
@@ -7,7 +7,7 @@ class OutOfStockException extends Exception{
         super(message);
     }
 }
-/*
+
 class Product {
     private String name;
     private int stock;

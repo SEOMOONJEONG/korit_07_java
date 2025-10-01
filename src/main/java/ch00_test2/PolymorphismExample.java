@@ -26,13 +26,23 @@ public class PolymorphismExample {
         animals[0] = new Dog();     // Dog 객체 담고
         animals[1] = new Cat();     // Cat 객체 담음
 
-        for(Animal animal : animals) {  // 배열 animals를 순회하는 반복문 시작 + 각 요소를 animal 변수로 받아서 작업 진행
+        for(int i = 0; i < animals.length; i++) {
+            Animal animal = animals[i];
+            // 반복할 코드
             animal.makeSound();
             if(animal instanceof Dog) {
                 Dog dog = (Dog) animal;
                 dog.fetch();
             }
         }
+
+//        for(Animal animal : animals) {  // 배열 animals를 순회하는 반복문 시작 + 각 요소를 animal 변수로 받아서 작업 진행
+//            animal.makeSound();
+//            if(animal instanceof Dog) {
+//                Dog dog = (Dog) animal;
+//                dog.fetch();
+//            }
+//        }
 
     }
 }

@@ -1,4 +1,4 @@
-package ch00_test3;
+package ch00_test3_01;
 
 // TODO: 제네릭 타입 T를 사용하는 Box 클래스를 작성하시오.
 // 필드: private T content

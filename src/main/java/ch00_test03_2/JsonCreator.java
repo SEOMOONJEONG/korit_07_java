@@ -1,4 +1,4 @@
-package ch00_test3_01;
+package ch00_test03_2;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

@@ -1,4 +1,4 @@
-package ch00_test3;
+package ch00_test3_01;
 
 // TODO: calculateArea() 추상 메서드를 가진 Shape 추상 클래스를 작성하시오.
 abstract class Shape {
