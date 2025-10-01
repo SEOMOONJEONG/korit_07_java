@@ -1,4 +1,4 @@
-package ch00_test03_2;
+package ch00_test3_02;
 
 public class FruitPrinter {
     public static void main(String[] args) {

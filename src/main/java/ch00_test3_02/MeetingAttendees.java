@@ -1,4 +1,4 @@
-package ch00_test03_2;
+package ch00_test3_02;
 
 import java.util.HashSet;
 import java.util.Set;
