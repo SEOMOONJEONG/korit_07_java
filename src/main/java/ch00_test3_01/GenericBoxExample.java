@@ -1,0 +1,43 @@
+package ch00_test3;
+
+// TODO: 제네릭 타입 T를 사용하는 Box 클래스를 작성하시오.
+// 필드: private T content
+// 생성자: content를 인자로 받아 초기화
+// 메서드: public T getContent()
+
+class Box<T> {
+    // 필드 선언
+    private T content;
+
+    // 생성자
+    public Box(T content) {
+        this.content = content;
+    }
+
+    // 메서드
+    public T getcontent() {
+        return content;
+    }
+
+    public void setcontent(T content) {
+        this.content = content;
+    }
+}
+
+
+public class GenericBoxExample {
+    public static void main(String[] args) {
+        // TODO: "Hello World" 문자열을 담는 Box<String> 객체를 생성하고 내용물을 출력하시오.
+        Box<String> stringBox = new Box<>("Hello World");
+        String message = stringBox.getcontent();
+        System.out.println("문자열 상자 내용: "+ message);
+        // TODO: 숫자 123을 담는 Box<Integer> 객체를 생성하고 내용물을 출력하시오.
+        Box<Integer> integerBox = new Box<>(123);
+        Integer integer = integerBox.getcontent();
+        System.out.println("정수 상자 내용: "+ integer); // 출력: 123
+    }
+}
+/*
+    문자열 상자 내용: Hello World
+    정수 상자 내용: 123
+ */
