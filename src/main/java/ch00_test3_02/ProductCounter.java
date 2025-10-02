@@ -12,7 +12,7 @@ class Product {
     }
 
     // TODO: static 필드의 값을 반환하는 public static 메서드를 작성하시오.
-    static int getTotalProducts() {
+    public static int getTotalProducts() {
         return totalProducts;
     }
 
@@ -31,6 +31,7 @@ public class ProductCounter {
         System.out.println("총 상품 수: " + totalProducts);
     }
 }
+
 /*
     초기 상품 수: 0
     총 상품 수: 3
